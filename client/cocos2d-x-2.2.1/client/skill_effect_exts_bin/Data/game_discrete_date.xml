@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<discrete_date>
+		<gamedate>gamedate</gamedate>
+		<speed>0.3</speed>
+		<attack>1.23</attack>
+	</discrete_date>
+</root>

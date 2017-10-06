@@ -1,0 +1,17 @@
+class FullScreenSprite : public CCSprite
+{
+public:
+	static FullScreenSprite *create(const std::string& fileName);
+};
+
+class Proxy
+{
+public:
+	static float getAndroidDisplayDensity();
+	Proxy();
+	void HttpSendInScript(CCObject *object,const char* url,const char *date,LUA_FUNCTION nHandler);
+	static std::string GetMD5OfString(string strString);    
+	static std::string GetMD5(const string& strFilePath); 
+	static void spriteGray(CCSprite* pSprite, bool bGray);
+	static void spriteHighlight(CCSprite* pSprite, bool bHighlight);
+};

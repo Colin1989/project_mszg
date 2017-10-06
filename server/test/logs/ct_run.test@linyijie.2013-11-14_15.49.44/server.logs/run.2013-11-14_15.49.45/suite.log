@@ -1,0 +1,105 @@
+=== Suite started at 2013-11-14 15:49:45
+=== Starting test, 3 test cases
+=cases         3
+=user          Administrator
+=host          linyijie
+=hosts         linyijie 
+=emulator_vsn  5.10.3
+=emulator      beam
+=otp_release   R16B02
+=started       2013-11-14 15:49:45
+=case          ct_framework:init_per_suite
+=logfile       ct_framework.init_per_suite.html
+=group_props   [{suite,test_helper_SUITE}]
+=started       2013-11-14 15:49:45
+=ended         2013-11-14 15:49:45
+=result        ok
+=elapsed       1.0e-6
+=case          test_helper_SUITE:test_packet
+=logfile       test_helper_suite.test_packet.html
+=started       2013-11-14 15:49:45
+=== WARNING: end_per_testcase crashed!
+Reason: badarg
+Line: [{erlang,exit},
+ {test_helper,stop,24},
+ {test_helper_SUITE,end_per_testcase,29},
+ {test_server,do_end_per_testcase,1228},
+ {test_server,run_test_case_eval1,1000},
+ {test_server,run_test_case_eval,924}]
+
+=ended         2013-11-14 15:49:45
+=result        skipped
+=== *** SKIPPED *** test case 1 of 3
+=case          test_helper_SUITE:test_db
+=logfile       test_helper_suite.test_db.html
+=started       2013-11-14 15:49:45
+=== WARNING: end_per_testcase crashed!
+Reason: badarg
+Line: [{erlang,exit},
+ {test_helper,stop,24},
+ {test_helper_SUITE,end_per_testcase,29},
+ {test_server,do_end_per_testcase,1228},
+ {test_server,run_test_case_eval1,1000},
+ {test_server,run_test_case_eval,924}]
+
+=ended         2013-11-14 15:49:45
+=result        failed: {noproc,
+                           {gen_server,call,
+                               [boss_db_pool,{checkout,true,5000},5000]}}, [{gen_server,
+                                                                             call,
+                                                                             188},
+                                                                            {boss_pool,
+                                                                             call,
+                                                                             11},
+                                                                            {boss_db,
+                                                                             find,
+                                                                             109},
+                                                                            {test_helper_SUITE,
+                                                                             test_db,
+                                                                             60},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1358},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             975},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             924}]
+=== *** FAILED *** test case 2 of 3
+=case          ct_framework:end_per_suite
+=logfile       ct_framework.end_per_suite.html
+=group_props   [{suite,test_helper_SUITE}]
+=started       2013-11-14 15:49:45
+=ended         2013-11-14 15:49:45
+=result        ok
+=elapsed       1.0e-6
+=group_time    0.218s
+=case          ct_framework:init_per_suite
+=logfile       ct_framework.init_per_suite.415385.391.html
+=group_props   [{suite,tplt_mock_SUITE}]
+=started       2013-11-14 15:49:45
+=ended         2013-11-14 15:49:45
+=result        ok
+=elapsed       1.0e-6
+=case          tplt_mock_SUITE:test_tplt_mock
+=logfile       tplt_mock_suite.test_tplt_mock.html
+=started       2013-11-14 15:49:45
+=ended         2013-11-14 15:49:45
+=result        ok
+=elapsed       0.047
+=case          ct_framework:end_per_suite
+=logfile       ct_framework.end_per_suite.415385.516.html
+=group_props   [{suite,tplt_mock_SUITE}]
+=started       2013-11-14 15:49:45
+=ended         2013-11-14 15:49:45
+=result        ok
+=elapsed       1.0e-6
+=group_time    0.125s
+=== TEST COMPLETE, 1 ok, 1 failed, 1 skipped of 3 test cases
+
+=finished      2013-11-14 15:49:45
+=failed        1
+=successful    1
+=user_skipped  1
+=auto_skipped  0

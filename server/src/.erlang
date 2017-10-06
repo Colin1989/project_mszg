@@ -1,0 +1,10 @@
+code:add_patha("../ebin/").
+code:add_patha("../test/").
+code:add_patha("../deps/boss_db/ebin").
+code:add_patha("../deps/boss_db/deps/mysql/ebin").
+code:add_patha("../deps/boss_db/deps/aleppo/ebin").
+code:add_patha("../deps/erlsom/ebin").
+code:add_patha("../deps/boss_db/deps/redo/ebin").
+code:add_patha("../deps/boss_db/deps/poolboy/ebin").
+code:add_patha("../deps/thrift/ebin").
+code:add_patha("../deps/erlcron/ebin").

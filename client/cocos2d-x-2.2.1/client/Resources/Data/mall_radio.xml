@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<mall_radio>
+		<id>2</id>
+		<mall_type>1</mall_type>
+		<normal>herobag_text_item_d.png</normal>
+		<current>herobag_text_item_h.png</current>
+	</mall_radio>
+	<mall_radio>
+		<id>3</id>
+		<mall_type>1</mall_type>
+		<normal>herobag_text_gem_d.png</normal>
+		<current>herobag_text_gem_h.png</current>
+	</mall_radio>
+	<mall_radio>
+		<id>102</id>
+		<mall_type>2</mall_type>
+		<normal>herobag_text_item_d.png</normal>
+		<current>herobag_text_item_h.png</current>
+	</mall_radio>
+	<mall_radio>
+		<id>103</id>
+		<mall_type>2</mall_type>
+		<normal>herobag_text_skill_d.png</normal>
+		<current>herobag_text_skill_h.png</current>
+	</mall_radio>
+</root>

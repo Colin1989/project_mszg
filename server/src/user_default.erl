@@ -1,0 +1,3 @@
+-module(user_default).
+-include("packet_def.hrl").
+-include("record_def.hrl").

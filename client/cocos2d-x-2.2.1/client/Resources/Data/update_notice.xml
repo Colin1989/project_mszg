@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<update_notice>
+		<id>1</id>
+		<title>《萌兽战歌》</title>
+		<sub_title>null</sub_title>
+		<text>感谢大家对《萌兽战歌》的支持，为给大家带来更好的游戏体验，我们对版本进行了更新，主要更新内容如下： 
+1、修复了魔石召唤产生黑屏的问题
+2、修复了部分战斗中出现黑屏的问题
+3、修复了一直出现提示为“进阶为橙色装备”的问题
+4、修复了第七个BOSS挑战事件出错的问题</text>
+		<type>1</type>
+		<icon>0</icon>
+		<mark_id>0</mark_id>
+	</update_notice>
+</root>

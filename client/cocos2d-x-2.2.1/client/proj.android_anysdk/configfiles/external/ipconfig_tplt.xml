@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ipconfig_tplt>
+		<id>1</id>
+		<ip>121.199.4.73</ip>
+		<port>8001</port>
+		<content>外网</content>
+		<statu>1</statu>
+		<speed>1</speed>
+		<crypto>1</crypto>
+		<text> 亲，首次删档封测已结束，请期待8月开测哦！</text>
+	</ipconfig_tplt>
+</root>

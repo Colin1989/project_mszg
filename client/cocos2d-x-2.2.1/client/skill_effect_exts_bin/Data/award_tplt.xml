@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<award_tplt>
+		<id>1</id>
+		<name>回春术</name>
+		<award_type>1</award_type>
+		<award_id>101</award_id>
+	</award_tplt>
+	<award_tplt>
+		<id>2</id>
+		<name>强化石</name>
+		<award_type>2</award_type>
+		<award_id>104</award_id>
+	</award_tplt>
+</root>

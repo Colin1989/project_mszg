@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<time_limit_reward_tplt>
+		<id>1</id>
+		<start_time>{12,0,0}</start_time>
+		<end_time>{14,0,0}</end_time>
+		<count>1</count>
+		<cd_time>0</cd_time>
+		<ids>14</ids>
+		<amounts>60</amounts>
+	</time_limit_reward_tplt>
+	<time_limit_reward_tplt>
+		<id>2</id>
+		<start_time>{18,0,0}</start_time>
+		<end_time>{20,0,0}</end_time>
+		<count>1</count>
+		<cd_time>0</cd_time>
+		<ids>14</ids>
+		<amounts>60</amounts>
+	</time_limit_reward_tplt>
+</root>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<activities_tplt>
+		<id>1</id>
+		<icon>activity_copy_135.png</icon>
+		<time_type>1</time_type>
+		<describe>每周一、三、五05:00开启，奖励大量稀有材料</describe>
+		<begin_time_array>{1,5,0},{3,5,0},{5,5,0}</begin_time_array>
+		<end_time_array>{2,4,59},{4,4,59},{6,4,59}</end_time_array>
+	</activities_tplt>
+	<activities_tplt>
+		<id>2</id>
+		<icon>activity_copy_246.png</icon>
+		<time_type>1</time_type>
+		<describe>每周二、四、六、日05:00开启，奖励大量战魂</describe>
+		<begin_time_array>{2,5,0},{4,5,0},{6,5,0},{7,5,0}</begin_time_array>
+		<end_time_array>{3,4,59},{5,4,59},{7,4,59},{1,4,59}</end_time_array>
+	</activities_tplt>
+</root>

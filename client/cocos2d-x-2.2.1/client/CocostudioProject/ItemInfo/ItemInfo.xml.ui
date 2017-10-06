@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\wow\CocostudioProject\ItemInfo</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>E:\wow\CocostudioProject\ItemInfo\Resources</Resources>
+  <Name>ItemInfo</Name>
+  <JsonFileName>ItemInfo.json</JsonFileName>
+  <JsonFolder>E:\wow\CocostudioProject\ItemInfo\Json</JsonFolder>
+  <JsonList>
+    <string>GemInfo_01.json</string>
+    <string>GemInfo_02.json</string>
+    <string>ItemInfo_01.json</string>
+    <string>ItemInfo_02.json</string>
+    <string>GemInfo_Long.json</string>
+    <string>ItemInfo_Long.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>720</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>E:\wow\CocostudioProject\ItemInfo\ItemInfo.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>ItemInfo_01.json</CurrentUIJson>
+</UIProject>

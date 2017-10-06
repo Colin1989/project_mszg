@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\DILAO\client\CocostudioProject\RoleUp</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>E:\DILAO\client\CocostudioProject\RoleUp\Resources</Resources>
+  <Name>RoleUp</Name>
+  <JsonFileName>RoleUp.json</JsonFileName>
+  <JsonFolder>E:\DILAO\client\CocostudioProject\RoleUp\Json</JsonFolder>
+  <JsonList>
+    <string>RoleUp_1.json</string>
+    <string>RoleTalent.json</string>
+    <string>RoleTalent_noActive.json</string>
+    <string>RoleTalent_active.json</string>
+    <string>RoleTalent_reset.json</string>
+    <string>item.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>640</Width>
+    <Height>717</Height>
+  </CanvasSize>
+  <filePath>E:\DILAO\client\CocostudioProject\RoleUp\RoleUp.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>RoleTalent_noActive.json</CurrentUIJson>
+</UIProject>

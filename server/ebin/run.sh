@@ -1,0 +1,4 @@
+#!/bin/sh
+ERL=/usr/local/erlang/bin/erl
+cd `dirname $0`
+exec $ERL -name '1@127.0.0.1' -setcookie efg -pz ../deps/erlsom/ebin -pz ../deps/boss_db/ebin -pz ../deps/boss_db/deps/poolboy/ebin -pz ../deps/boss_db/deps/mysql/ebin -pz ../deps/boss_db/deps/tiny_pq/ebin -pz ../deps/boss_db/deps/uuid/ebin -pz ../boss_db/deps/protobuffs/ebin -pz ../boss_db/deps/meck/ebin -pz ../boss_db/deps/jsx/ebin -pz ../boss_db/deps/gen_server2/ebin -pz ../boss_db/deps/aleppo/ebin -pz ../deps/boss_db/deps/ets_cache/ebin -pz ../deps/boss_db/deps/erlydtl/ebin ../deps/boss_db/deps/redo/ebin -boot start_sasl -config elog -s inets -eval "application:start(game)"

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<sculpture_divine_tplt>
+		<money_type>1</money_type>
+		<money_amounts>100,500,1000,5000,10000</money_amounts>
+		<upgrade_rates>80,60,40,20,0</upgrade_rates>
+		<divine_award_file>divine1_award_tplt</divine_award_file>
+	</sculpture_divine_tplt>
+	<sculpture_divine_tplt>
+		<money_type>2</money_type>
+		<money_amounts>2,5,10,20,50</money_amounts>
+		<upgrade_rates>70,50,30,10,0</upgrade_rates>
+		<divine_award_file>divine1_award_tplt</divine_award_file>
+	</sculpture_divine_tplt>
+	<sculpture_divine_tplt>
+		<money_type>3</money_type>
+		<money_amounts>200,0,0,0,0</money_amounts>
+		<upgrade_rates>0,0,0,0,0</upgrade_rates>
+		<divine_award_file>divine1_award_tplt</divine_award_file>
+	</sculpture_divine_tplt>
+</root>

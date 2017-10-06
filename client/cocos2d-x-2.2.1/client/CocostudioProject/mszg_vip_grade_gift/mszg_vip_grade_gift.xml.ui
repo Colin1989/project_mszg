@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\DILAO\client\CocostudioProject\mszg_vip_grade_gift</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>E:\DILAO\client\CocostudioProject\mszg_vip_grade_gift\Resources</Resources>
+  <Name>mszg_vip_grade_gift</Name>
+  <JsonFileName>mszg_vip_grade_gift.json</JsonFileName>
+  <JsonFolder>E:\DILAO\client\CocostudioProject\mszg_vip_grade_gift\Json</JsonFolder>
+  <JsonList>
+    <string>mszg_vip_grade_gift_1.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>640</Width>
+    <Height>960</Height>
+  </CanvasSize>
+  <filePath>E:\DILAO\client\CocostudioProject\mszg_vip_grade_gift\mszg_vip_grade_gift.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>mszg_vip_grade_gift_1.json</CurrentUIJson>
+</UIProject>

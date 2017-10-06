@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Users\Administrator\Desktop\新建文件夹\cocos2d-x-2.2.1\client\CocostudioProject\FriendBackground</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>C:\Users\Administrator\Desktop\新建文件夹\cocos2d-x-2.2.1\client\CocostudioProject\FriendBackground\Resources</Resources>
+  <Name>FriendBackground</Name>
+  <JsonFileName>FriendBackground.json</JsonFileName>
+  <JsonFolder>C:\Users\Administrator\Desktop\新建文件夹\cocos2d-x-2.2.1\client\CocostudioProject\FriendBackground\Json</JsonFolder>
+  <JsonList>
+    <string>FriendChat_1.json</string>
+    <string>friendInfo_1.json</string>
+    <string>friendlist_1.json</string>
+    <string>friendListItem_1.json</string>
+    <string>friendSearch.json</string>
+    <string>FriendBackground_1.json</string>
+    <string>chat.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>640</Width>
+    <Height>960</Height>
+  </CanvasSize>
+  <filePath>C:\Users\Administrator\Desktop\新建文件夹\cocos2d-x-2.2.1\client\CocostudioProject\FriendBackground\FriendBackground.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>chat.json</CurrentUIJson>
+</UIProject>

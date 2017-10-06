@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ranking_copy_tplt>
+		<id>101</id>
+		<lev_range>1,30</lev_range>
+		<scene>1001,1004,1008</scene>
+		<friends>-1</friends>
+		<friend_min>0</friend_min>
+		<friend_max>0</friend_max>
+		<traps>3001,3002</traps>
+		<trap_min>2</trap_min>
+		<trap_max>4</trap_max>
+		<barrier_amount>4</barrier_amount>
+		<awards>2001</awards>
+		<award_min>2</award_min>
+		<award_max>4</award_max>
+		<monsters>130,122</monsters>
+		<monster_min>2</monster_min>
+		<monster_max>4</monster_max>
+	</ranking_copy_tplt>
+</root>

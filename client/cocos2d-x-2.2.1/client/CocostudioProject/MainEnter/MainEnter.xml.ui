@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\wow\CocostudioProject\MainEnter</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>E:\wow\CocostudioProject\MainEnter\Resources</Resources>
+  <Name>MainEnter</Name>
+  <JsonFileName>MainEnter.json</JsonFileName>
+  <JsonFolder>E:\wow\CocostudioProject\MainEnter\Json</JsonFolder>
+  <JsonList>
+    <string>MainEnter.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1084</Width>
+    <Height>960</Height>
+  </CanvasSize>
+  <filePath>E:\wow\CocostudioProject\MainEnter\MainEnter.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>MainEnter.json</CurrentUIJson>
+</UIProject>

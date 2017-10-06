@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tolua">
+      <UniqueIdentifier>{243d29bc-c49a-4d05-8e2f-2c2f5858928a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx_support">
+      <UniqueIdentifier>{bbe428ed-e8e5-4e3c-80c9-0e586814b884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="luajit">
+      <UniqueIdentifier>{948e219e-763e-41d0-bc8d-6421dba8ad70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="luajit\include">
+      <UniqueIdentifier>{b7025611-420a-4414-b567-f7496eec5f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exts">
+      <UniqueIdentifier>{7b2da8a7-c4aa-4b1b-95f7-ce92f1cb21eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exts\luasocket">
+      <UniqueIdentifier>{bd4d0dc1-a71c-4f2b-9dc0-2dff70232739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exts\lpack">
+      <UniqueIdentifier>{ac23bf6a-56b9-4f12-ac42-824889f835f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exts\AES">
+      <UniqueIdentifier>{2846c5d5-d156-460d-9006-46fd0e9aa9f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exts\luaxml">
+      <UniqueIdentifier>{afff16aa-3eb1-4b61-99fd-dbed57b2e363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exts\luaxml\rapidxml">
+      <UniqueIdentifier>{ce7bac4d-8fc0-451d-9db9-923f891f77e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exts\luacsv">
+      <UniqueIdentifier>{a7016842-3c04-466b-938a-400f5bfaf203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exts\RC4">
+      <UniqueIdentifier>{5c33cdca-f26f-4d0d-927b-d33cb210a06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exts\PacketCrypto">
+      <UniqueIdentifier>{543f39cd-46d7-41f1-b7fa-d93084ae2dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exts\StringFilter">
+      <UniqueIdentifier>{4d51f50d-13cf-4d3c-8e74-9d650db92658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exts\luatime">
+      <UniqueIdentifier>{a9807fd5-4ffb-430a-a7f8-9c08a2810738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exts\MD5">
+      <UniqueIdentifier>{4fd14855-99b1-44be-99b3-3533ba6f593c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\tolua\tolua_event.c">
+      <Filter>tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tolua\tolua_is.c">
+      <Filter>tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tolua\tolua_map.c">
+      <Filter>tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tolua\tolua_push.c">
+      <Filter>tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tolua\tolua_to.c">
+      <Filter>tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\CCLuaEngine.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\Cocos2dxLuaLoader.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\LuaCocos2d.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\tolua_fix.c">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\CCLuaBridge.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\CCLuaStack.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\CCLuaValue.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\Lua_extensions_CCB.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\CCBProxy.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\Lua_web_socket.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\lua_cocos2dx_extensions_manual.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\Proxy.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\auxiliar.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\buffer.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\except.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\inet.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\io.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\luasocket.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\mime.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\options.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\select.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\tcp.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\timeout.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\udp.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luasocket\wsocket.c">
+      <Filter>exts\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\lualoadexts.c">
+      <Filter>exts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\Lewis.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\AES\AES.cpp">
+      <Filter>exts\AES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luaxml\luaxml.cpp">
+      <Filter>exts\luaxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luacsv\luacsv.cpp">
+      <Filter>exts\luacsv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\RC4\RC4.c">
+      <Filter>exts\RC4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\PacketCrypto\PacketCrypto.c">
+      <Filter>exts\PacketCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\PacketCrypto\luarpacketcrypto.c">
+      <Filter>exts\PacketCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\RC4\luarc4.c">
+      <Filter>exts\RC4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocos2dx_support\save_xml.cpp">
+      <Filter>cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\StringFilter\StringFilter.cpp">
+      <Filter>exts\StringFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\StringFilter\Trie.cpp">
+      <Filter>exts\StringFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\StringFilter\TrieNode.cpp">
+      <Filter>exts\StringFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\StringFilter\luastringfilter.cpp">
+      <Filter>exts\StringFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\luatime\luatime.c">
+      <Filter>exts\luatime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\MD5\luamd5.cpp">
+      <Filter>exts\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\exts\MD5\MD5.cpp">
+      <Filter>exts\MD5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\tolua\tolua++.h">
+      <Filter>tolua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tolua\tolua_event.h">
+      <Filter>tolua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\CCLuaEngine.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\Cocos2dxLuaLoader.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\LuaCocos2d.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\tolua_fix.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\CCLuaBridge.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\CCLuaStack.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\CCLuaValue.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luajit\include\lauxlib.h">
+      <Filter>luajit\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luajit\include\lua.h">
+      <Filter>luajit\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luajit\include\luaconf.h">
+      <Filter>luajit\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luajit\include\lualib.h">
+      <Filter>luajit\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\Lua_extensions_CCB.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\CCBProxy.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\Lua_web_socket.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\lua_cocos2dx_extensions_manual.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\Proxy.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\MD5ChecksumDefines.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\auxiliar.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\buffer.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\except.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\inet.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\io.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\luasocket.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\mime.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\options.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\select.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\socket.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\tcp.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\timeout.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\udp.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luasocket\wsocket.h">
+      <Filter>exts\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\lpack\lpack.h">
+      <Filter>exts\lpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\lualoadexts.h">
+      <Filter>exts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\Lewis.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\AES\AES.h">
+      <Filter>exts\AES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luaxml\luaxml.h">
+      <Filter>exts\luaxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luaxml\rapidxml\rapidxml.hpp">
+      <Filter>exts\luaxml\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luaxml\rapidxml\rapidxml_iterators.hpp">
+      <Filter>exts\luaxml\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luaxml\rapidxml\rapidxml_print.hpp">
+      <Filter>exts\luaxml\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luaxml\rapidxml\rapidxml_utils.hpp">
+      <Filter>exts\luaxml\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luacsv\luacsv.h">
+      <Filter>exts\luacsv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\RC4\RC4.h">
+      <Filter>exts\RC4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\RC4\luarc4.h">
+      <Filter>exts\RC4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\PacketCrypto\luarpacketcrypto.h">
+      <Filter>exts\PacketCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\PacketCrypto\PacketCrypto.h">
+      <Filter>exts\PacketCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cocos2dx_support\save_xml.h">
+      <Filter>cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\StringFilter\StringFilter.h">
+      <Filter>exts\StringFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\StringFilter\Trie.h">
+      <Filter>exts\StringFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\StringFilter\TrieNode.h">
+      <Filter>exts\StringFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\StringFilter\luastringfilter.h">
+      <Filter>exts\StringFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\luatime\luatime.h">
+      <Filter>exts\luatime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\MD5\luamd5.h">
+      <Filter>exts\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\exts\MD5\MD5.h">
+      <Filter>exts\MD5</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

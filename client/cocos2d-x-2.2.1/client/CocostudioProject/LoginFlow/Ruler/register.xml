@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>Begin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>LoginOwn</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Register</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>RegisterProtocol</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>LoginChannel</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ChooseServer</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>

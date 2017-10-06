@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<activeness_reward_tplt>
+		<id>1</id>
+		<ids>9</ids>
+		<amounts>100</amounts>
+		<need_activess>250</need_activess>
+	</activeness_reward_tplt>
+	<activeness_reward_tplt>
+		<id>2</id>
+		<ids>65535</ids>
+		<amounts>100</amounts>
+		<need_activess>500</need_activess>
+	</activeness_reward_tplt>
+	<activeness_reward_tplt>
+		<id>3</id>
+		<ids>1</ids>
+		<amounts>30000</amounts>
+		<need_activess>750</need_activess>
+	</activeness_reward_tplt>
+	<activeness_reward_tplt>
+		<id>4</id>
+		<ids>1000</ids>
+		<amounts>15</amounts>
+		<need_activess>1000</need_activess>
+	</activeness_reward_tplt>
+</root>

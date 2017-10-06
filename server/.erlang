@@ -1,0 +1,3 @@
+code:add_patha("deps/boss_db/ebin").
+code:add_patha("deps/boss_db/deps/aleppo/ebin").
+code:add_patha("deps/erlsom/ebin").

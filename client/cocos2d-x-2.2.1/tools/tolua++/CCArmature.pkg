@@ -1,0 +1,14 @@
+class CCArmature : public CCNodeRGBA, public CCBlendProtocol
+{
+public:
+    static CCArmature *create();
+    static CCArmature *create(const char *name);
+	
+	virtual void setAnimation(CCArmatureAnimation *animation);
+
+	virtual CCArmatureAnimation *getAnimation();
+	
+	virtual CCTextureAtlas *getTexureAtlasWithTexture(CCTexture2D *texture);
+
+    virtual void setColliderFilter(CCColliderFilter *filter);
+};

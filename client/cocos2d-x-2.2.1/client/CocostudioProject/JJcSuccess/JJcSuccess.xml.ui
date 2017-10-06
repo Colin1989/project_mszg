@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\wow\CocostudioProject\JJcSuccess</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>E:\wow\CocostudioProject\JJcSuccess\Resources</Resources>
+  <Name>JJcSuccess</Name>
+  <JsonFileName>JJcSuccess.json</JsonFileName>
+  <JsonFolder>E:\wow\CocostudioProject\JJcSuccess\Json</JsonFolder>
+  <JsonList>
+    <string>JJcSuccess_1.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>640</Width>
+    <Height>960</Height>
+  </CanvasSize>
+  <filePath>E:\wow\CocostudioProject\JJcSuccess\JJcSuccess.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>JJcSuccess_1.json</CurrentUIJson>
+</UIProject>

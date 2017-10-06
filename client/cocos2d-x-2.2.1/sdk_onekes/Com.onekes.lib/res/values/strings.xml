@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Com.onekes.lib</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pay_cancle">返回</string>
+    <string name="pay_title">顽客</string>
+    <string name="pay_account">游戏账号:%s</string>
+    <string name="pay_price">应付金额:</string>
+    <string name="pay_name">游戏名称:</string>
+    <string name="pay_method">选择支付方式</string>
+    <string name="pay_yonghufanhui">用户意见反馈</string>
+    <string name="pay_customer_tel">客服热线：0592-5938786</string>
+    
+    <string-array name="paychannel_info_array">
+        <item>1|icon_zfb.png|支付宝</item>
+        <item>2|icon_zfb.png|测试数据2</item>
+        <item>3|icon_zfb.png|测试数据3</item>
+        <item>4|icon_zfb.png|测试数据4</item>
+        <item>5|icon_zfb.png|测试数据5</item>
+    </string-array>
+
+</resources>

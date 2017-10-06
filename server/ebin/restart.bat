@@ -1,0 +1,1 @@
+erl -name restart_wow@127.0.0.1 -setcookie efg -s restart start 1@127.0.0.1

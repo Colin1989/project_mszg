@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<train_match_award>
+		<id>1</id>
+		<awards>5</awards>
+		<amounts>20</amounts>
+		<radios>100</radios>
+	</train_match_award>
+	<train_match_award>
+		<id>2</id>
+		<awards>5</awards>
+		<amounts>50</amounts>
+		<radios>100</radios>
+	</train_match_award>
+	<train_match_award>
+		<id>3</id>
+		<awards>5</awards>
+		<amounts>100</amounts>
+		<radios>100</radios>
+	</train_match_award>
+	<train_match_award>
+		<id>4</id>
+		<awards>5</awards>
+		<amounts>200</amounts>
+		<radios>100</radios>
+	</train_match_award>
+</root>

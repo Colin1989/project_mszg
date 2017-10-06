@@ -1,0 +1,1 @@
+﻿------------------------------------------------------------------------ 作者：lewis-- 日期：2013-3-31-- 描述：结点开格子----------------------------------------------------------------------NodeOpenGrid = class(NodeTapGird)--构造function NodeOpenGrid:ctor()end--计算权值function NodeOpenGrid:calc()	self:evalCommon()end		

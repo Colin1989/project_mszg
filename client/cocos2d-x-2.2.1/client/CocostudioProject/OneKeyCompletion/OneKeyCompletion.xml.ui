@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\DILAO\client\CocostudioProject\OneKeyCompletion</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>E:\DILAO\client\CocostudioProject\OneKeyCompletion\Resources</Resources>
+  <Name>OneKeyCompletion</Name>
+  <JsonFileName>OneKeyCompletion.json</JsonFileName>
+  <JsonFolder>E:\DILAO\client\CocostudioProject\OneKeyCompletion\Json</JsonFolder>
+  <JsonList>
+    <string>OneKeyCompletion_1.json</string>
+    <string>OneKeyCompletion_2.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>478</Width>
+    <Height>133</Height>
+  </CanvasSize>
+  <filePath>E:\DILAO\client\CocostudioProject\OneKeyCompletion\OneKeyCompletion.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>OneKeyCompletion_2.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<discrete_date>
+		<gamedate>gamedate</gamedate>
+		<speed>0.3</speed>						<!-- 速度加成 -->
+		<everygetstone>1</everygetstone>		<!-- 每日领取石头 -->
+		<stone_need_money>1</stone_need_money>		<!-- 召唤石头花费 -->		
+	</discrete_date>
+</root>

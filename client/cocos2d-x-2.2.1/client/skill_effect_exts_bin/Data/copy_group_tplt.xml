@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<copy_group_tplt>
+		<id>101</id>
+		<name>剃刀岭之乱</name>
+		<next_group_id>102</next_group_id>
+		<icon>1001</icon>
+		<first_copy_id>1001</first_copy_id>
+	</copy_group_tplt>
+	<copy_group_tplt>
+		<id>102</id>
+		<name>遗忘之地的宝藏</name>
+		<next_group_id>0</next_group_id>
+		<icon>1001</icon>
+		<first_copy_id>2001</first_copy_id>
+	</copy_group_tplt>
+</root>

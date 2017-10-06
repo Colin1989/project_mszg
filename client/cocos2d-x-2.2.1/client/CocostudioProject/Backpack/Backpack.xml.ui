@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\wow\CocostudioProject\Backpack</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>E:\wow\CocostudioProject\Backpack\Resources</Resources>
+  <Name>Backpack</Name>
+  <JsonFileName>Backpack.json</JsonFileName>
+  <JsonFolder>E:\wow\CocostudioProject\Backpack\Json</JsonFolder>
+  <JsonList>
+    <string>Backpack_Bag.json</string>
+    <string>Backpack_body_equip.json</string>
+    <string>Backpack_Equip_01.json</string>
+    <string>Backpack_Equip_02.json</string>
+    <string>Backpack_Equip_03.json</string>
+    <string>Backpack_Main.json</string>
+    <string>Backpack_Player.json</string>
+    <string>Backpack_Skill.json</string>
+    <string>Backpack_Temp.json</string>
+    <string>Backpack_Equip_put.json</string>
+    <string>Backpack_Equip_no_put.json</string>
+    <string>Backpack_Equip_sure.json</string>
+    <string>Backpack_Gem_Compound.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>640</Width>
+    <Height>400</Height>
+  </CanvasSize>
+  <filePath>E:\wow\CocostudioProject\Backpack\Backpack.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>Backpack_Player.json</CurrentUIJson>
+</UIProject>

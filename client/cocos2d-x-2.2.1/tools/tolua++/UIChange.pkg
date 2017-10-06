@@ -1,0 +1,13 @@
+class UIChange
+{
+	static UIButton *UIWidget2UIButton(UIWidget *wid);
+	static UICheckBox *UIWidget2UICheckBox(UIWidget *wid);
+	static UIImageView *UIWidget2UIImageView(UIWidget *wid);
+	static UILabel *UIWidget2UILabel(UIWidget *wid);
+	static UILabelAtlas *UIWidget2UILabelAtlas(UIWidget *wid);
+	static UISlider *UIWidget2UISlider(UIWidget *wid);
+	static UILabelBMFont *UIWidget2UILabelBMFont(UIWidget *wid);
+	static UILoadingBar *UIWidget2UILoadingBar(UIWidget *wid);
+	static UITextField *UIWidget2UITextField(UIWidget *wid);
+	static UIScrollView *UIWidget2UIScrollView(UIWidget *wid);
+};

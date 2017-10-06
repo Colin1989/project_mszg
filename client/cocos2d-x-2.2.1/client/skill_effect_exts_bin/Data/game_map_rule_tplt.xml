@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<game_map_rule_tplt>
+		<id>1001</id>
+		<monster>161,162</monster>
+		<monster_pos>12,14</monster_pos>
+		<door>8</door>
+		<barries_pos>-1</barries_pos>
+	</game_map_rule_tplt>
+</root>

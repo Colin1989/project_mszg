@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>SkillFrag_long</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SkillMain</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SkillFragInfo</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SkillDevelop</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SkillInfo</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SkillUnlock</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SkillEquip</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>

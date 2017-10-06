@@ -1,0 +1,1 @@
+﻿------------------------------------------------------------------------ 作者：lewis-- 日期：2013-3-31-- 描述： 结点拾取金币----------------------------------------------------------------------NodePickupCoins = class(NodeTapGird)--构造function NodePickupCoins:ctor()end--计算权值function NodePickupCoins:calc()	self.mEvaluation	= 1000end		

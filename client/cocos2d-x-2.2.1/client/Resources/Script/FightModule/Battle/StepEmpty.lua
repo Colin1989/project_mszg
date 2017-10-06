@@ -1,0 +1,1 @@
+﻿------------------------------------------------------------------------ 作者：lewis-- 日期：2013-4-4-- 描述：空的步,不做任何事当位置用,并延时----------------------------------------------------------------------StepEmpty = class(BattleStep)--构造function StepEmpty:ctor()end--初始化function StepEmpty:init()end--执行对应的操作function StepEmpty:excute()end

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DailyLoginRewardRow>
+		<days>1</days>
+		<reward>50</reward>
+	</DailyLoginRewardRow>
+	<DailyLoginRewardRow>
+		<days>2</days>
+		<reward>200,100,300</reward>
+	</DailyLoginRewardRow>
+	<DailyLoginRewardRow>
+		<days>3</days>
+		<reward>250</reward>
+	</DailyLoginRewardRow>
+	<DailyLoginRewardRow>
+		<days>4</days>
+		<reward>300</reward>
+	</DailyLoginRewardRow>
+	<DailyLoginRewardRow>
+		<days>5</days>
+		<reward>350</reward>
+	</DailyLoginRewardRow>
+	<DailyLoginRewardRow>
+		<days>6</days>
+		<reward>400</reward>
+	</DailyLoginRewardRow>
+	<DailyLoginRewardRow>
+		<days>7</days>
+		<reward>500</reward>
+	</DailyLoginRewardRow>
+</root>

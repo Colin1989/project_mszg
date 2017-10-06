@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\cocos2d-x-2.2.1\client\CocostudioProject\CommonLayer</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>D:\cocos2d-x-2.2.1\client\CocostudioProject\CommonLayer\Resources</Resources>
+  <Name>CommonLayer</Name>
+  <JsonFileName>CommonLayer.json</JsonFileName>
+  <JsonFolder>D:\cocos2d-x-2.2.1\client\CocostudioProject\CommonLayer\Json</JsonFolder>
+  <JsonList>
+    <string>CommonLayer_sale.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>720</Width>
+    <Height>807</Height>
+  </CanvasSize>
+  <filePath>D:\cocos2d-x-2.2.1\client\CocostudioProject\CommonLayer\CommonLayer.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>CommonLayer_sale.json</CurrentUIJson>
+</UIProject>

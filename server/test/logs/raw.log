@@ -1,0 +1,37 @@
+--- Test run on 2013/11/14 16:05:42 ---
+Converting "ebin" to "e:/server/ebin" and re-inserting with add_pathz/1
+Converting "deps/boss_db/ebin" to "e:/server/deps/boss_db/ebin" and re-inserting with add_pathz/1
+Converting "deps/boss_db/deps/poolboy/ebin" to "e:/server/deps/boss_db/deps/poolboy/ebin" and re-inserting with add_pathz/1
+Converting "deps/boss_db/deps/mysql/ebin" to "e:/server/deps/boss_db/deps/mysql/ebin" and re-inserting with add_pathz/1
+Converting "deps/boss_db/deps/tiny_pq/ebin" to "e:/server/deps/boss_db/deps/tiny_pq/ebin" and re-inserting with add_pathz/1
+Converting "deps/boss_db/deps/uuid/ebin" to "e:/server/deps/boss_db/deps/uuid/ebin" and re-inserting with add_pathz/1
+Converting "boss_db/deps/protobuffs/ebin" to "e:/server/boss_db/deps/protobuffs/ebin" and re-inserting with add_pathz/1
+Converting "boss_db/deps/jsx/ebin" to "e:/server/boss_db/deps/jsx/ebin" and re-inserting with add_pathz/1
+Converting "boss_db/deps/gen_server2/ebin" to "e:/server/boss_db/deps/gen_server2/ebin" and re-inserting with add_pathz/1
+Converting "boss_db/deps/aleppo/ebin" to "e:/server/boss_db/deps/aleppo/ebin" and re-inserting with add_pathz/1
+Converting "deps/boss_db/deps/ets_cache/ebin" to "e:/server/deps/boss_db/deps/ets_cache/ebin" and re-inserting with add_pathz/1
+Converting "deps/boss_db/deps/meck/ebin" to "e:/server/deps/boss_db/deps/meck/ebin" and re-inserting with add_pathz/1
+Converting "e:/server/." to "e:/server" and re-inserting with add_patha/1
+
+
+Common Test v1.7.3 starting (cwd is E:/server)
+
+
+Common Test: Running make in test directories...
+Including the following directories:
+"e:/server/include"
+Recompile: test_helper_SUITE
+
+CWD set to: "e:/server/test/logs/ct_run.test@linyijie.2013-11-14_16.05.43"
+
+TEST INFO: 1 test(s), 3 case(s) in 2 suite(s)
+
+Cover compiling 1 modules - this may take some time... done
+
+Testing server: Starting test, 3 test cases
+Testing server: TEST COMPLETE, 3 ok, 0 failed of 3 test cases
+
+Cover analysing...
+Updating e:/server/test/logs/index.html... done
+Updating e:/server/test/logs/all_runs.html... done
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<game_award>
+		<id>10001</id>
+		<item_list1>100,102</item_list1>
+		<list1_ratio>50</list1_ratio>
+		<item_list2>10123,10223,10323,10423</item_list2>
+		<list2_ratio>20</list2_ratio>
+		<item_list3>103,104</item_list3>
+		<list3_ratio>30</list3_ratio>
+	</game_award>
+	<game_award>
+		<id>10002</id>
+		<item_list1>101,104,103</item_list1>
+		<list1_ratio>50</list1_ratio>
+		<item_list2>10525</item_list2>
+		<list2_ratio>10</list2_ratio>
+		<item_list3>104,102</item_list3>
+		<list3_ratio>40</list3_ratio>
+	</game_award>
+</root>

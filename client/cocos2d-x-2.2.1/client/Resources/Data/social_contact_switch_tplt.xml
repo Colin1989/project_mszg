@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<social_contact_switch_tplt>
+		<id>1</id>
+		<icon>social_friend.png</icon>
+		<open>1</open>
+	</activity_switch_tplt>
+	<activity_switch_tplt>
+		<id>2</id>
+		<icon>social_invet.png</icon>
+		<open>1</open>
+	</activity_switch_tplt>
+	<activity_switch_tplt>
+		<id>3</id>
+		<icon>social_choujiang.png</icon>
+		<open>1</open>
+	</activity_switch_tplt>
+	<activity_switch_tplt>
+		<id>4</id>
+		<icon>social_gonghui.png</icon>
+		<open>2</open>
+	</activity_switch_tplt>
+</root>

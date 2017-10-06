@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<invite_code_reward_tplt>
+		<id>5</id>
+		<pretince_ids>12102</pretince_ids>
+		<prentince_amounts>1</prentince_amounts>
+		<master_ids>1</master_ids>
+		<master_amounts>10000</master_amounts>
+	</invite_code_reward_tplt>
+	<invite_code_reward_tplt>
+		<id>15</id>
+		<pretince_ids>12103</pretince_ids>
+		<prentince_amounts>1</prentince_amounts>
+		<master_ids>1</master_ids>
+		<master_amounts>50000</master_amounts>
+	</invite_code_reward_tplt>
+	<invite_code_reward_tplt>
+		<id>30</id>
+		<pretince_ids>12105</pretince_ids>
+		<prentince_amounts>1</prentince_amounts>
+		<master_ids>3</master_ids>
+		<master_amounts>100</master_amounts>
+	</invite_code_reward_tplt>
+	<invite_code_reward_tplt>
+		<id>40</id>
+		<pretince_ids>12106</pretince_ids>
+		<prentince_amounts>1</prentince_amounts>
+		<master_ids>3</master_ids>
+		<master_amounts>200</master_amounts>
+	</invite_code_reward_tplt>
+</root>

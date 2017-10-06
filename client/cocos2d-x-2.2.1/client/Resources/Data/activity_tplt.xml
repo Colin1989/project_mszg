@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<activity_tplt>
+		<id>1</id>
+		<icon>null</icon>
+		<describe>春节抽奖</describe>
+		<begin_time_array>{2015,4,10},{0,0,0}</begin_time_array>
+		<end_time_array>{2015,4,10},{23,59,59}</end_time_array>
+	</activity_tplt>
+	<activity_tplt>
+		<id>2</id>
+		<icon>null</icon>
+		<describe>充值返礼</describe>
+		<begin_time_array>{2015,2,5},{9,0,0}</begin_time_array>
+		<end_time_array>{2015,2,12},{23,59,59}</end_time_array>
+	</activity_tplt>
+	<activity_tplt>
+		<id>3</id>
+		<icon>null</icon>
+		<describe>产出双倍</describe>
+		<begin_time_array>{2015,4,10},{0,0,0}</begin_time_array>
+		<end_time_array>{2015,4,10},{23,59,59}</end_time_array>
+	</activity_tplt>
+</root>

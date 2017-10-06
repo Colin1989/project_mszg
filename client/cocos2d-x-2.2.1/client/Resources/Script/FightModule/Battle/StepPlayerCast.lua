@@ -1,0 +1,1 @@
+﻿------------------------------------------------------------------------ 作者：lewis-- 日期：2013-4-4-- 描述：玩家施法前摇----------------------------------------------------------------------StepPlayerCast = class(BattleStep)--构造function StepPlayerCast:ctor()	self.mDuration	= 0			--持续时间end--执行对应的操作function StepPlayerCast:excute()end

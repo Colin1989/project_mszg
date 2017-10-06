@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test test_helper_SUITE:test_packet result</title>
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="../../ct_default.css" type="text/css">
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<pre>
+<a name="top"></a>
+=== Test case started with:
+test_helper_SUITE:test_packet([{watchdog,<0.189.0>},
+                               {tc_logfile,
+                                   "e:/server/test/logs/ct_run.test@linyijie.2013-11-14_14.15.48/server.logs/run.2013-11-14_14.15.49/test_helper_suite.test_packet.html"},
+                               {tc_group_properties,
+                                   [{suite,test_helper_SUITE}]},
+                               {tc_group_path,[]},
+                               {data_dir,
+                                   "e:/server/test/test_helper_SUITE_data/"},
+                               {priv_dir,
+                                   "e:/server/test/logs/ct_run.test@linyijie.2013-11-14_14.15.48/server.logs/run.2013-11-14_14.15.49/log_private/"}])
+
+=== Current directory is "e:/server/test/logs/ct_run.test@linyijie.2013-11-14_14.15.48"
+
+=== Started at 2013-11-14 14:15:49
+
+<br />
+=== ERROR! init_per_testcase crashed!
+	Location: [{meck_expect,parse_clause_specs,114},
+              {meck_expect,new,53},
+              {meck,expect,226},
+              {test_helper,start,20},
+              {test_helper_SUITE,init_per_testcase,<a href="test_helper_suite.src.html#25">25</a>},
+              {test_server,do_init_per_testcase,1166},
+              {test_server,run_test_case_eval1,950},
+              {test_server,run_test_case_eval,924}]
+	Reason: {{invalid_arity,
+                     {{expected,1},
+                      {actual,2},
+                      {clause,{2,{meck_exec,#Fun<test_helper.1.14992377>}}}}},
+                 [{meck_expect,parse_clause_specs,3,
+                      [{file,"src/meck_expect.erl"},{line,114}]},
+                  {meck_expect,new,2,[{file,"src/meck_expect.erl"},{line,53}]},
+                  {meck,expect,3,[{file,"src/meck.erl"},{line,226}]},
+                  {test_helper,start,0,[{file,"test_helper.erl"},{line,20}]},
+                  {test_helper_SUITE,init_per_testcase,2,
+                      [{file,"test_helper_SUITE.erl"},{line,25}]},
+                  {test_server,do_init_per_testcase,2,
+                      [{file,"test_server.erl"},{line,1166}]},
+                  {test_server,run_test_case_eval1,6,
+                      [{file,"test_server.erl"},{line,950}]},
+                  {test_server,run_test_case_eval,9,
+                      [{file,"test_server.erl"},{line,924}]}]}
+
+<a name="end"></a>
+
+
+=== Ended at 2013-11-14 14:15:49
+=== location [{meck_expect,parse_clause_specs,114},
+              {meck_expect,new,53},
+              {meck,expect,226},
+              {test_helper,start,20},
+              {test_helper_SUITE,init_per_testcase,<a href="test_helper_suite.src.html#25">25</a>},
+              {test_server,do_init_per_testcase,1166},
+              {test_server,run_test_case_eval1,950},
+              {test_server,run_test_case_eval,924}]
+=== reason = init_per_testcase failed
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>
+</p>
+<div class="copyright">Copyright &copy; 2013 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!date>Thu Nov 14 2013 14:15:49<!/date><br />
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+	/*资源自动更新地址*/
+	"update_url":"http://121.199.4.73:8888/wow/",
+	/*强制更新校对文件*/
+	"update_check_force_file":"CheckForce.json",
+	/*资源版本检测文件*/
+	"update_check_version_file":"CheckVersion.txt",
+	/*资源md5文件列表*/
+	"update_check_md5_filelist":"CheckFileList_external_uc.txt",
+	/*资源自动更新错误日志显示标识*/
+	"update_show_error_log":true,
+	/*账服地址*/
+	"account_server_url":"http://121.199.4.73:8081/txz/pass/uc_login.html",
+	/*活动地址*/
+	"activity_server_url":"http://121.199.4.73:8082/%s",
+	/*渠道名*/
+	"channel_name":"org/channel/UC_Channel",
+	/*是否为自有登录流程*/
+	"own_login_flow":false,
+	/*调试状态*/
+	"debug":true,
+	/*razor服务器地址*/
+	"ums_url":"http://121.199.4.73:8083/index.php",
+	/*支付渠道*/
+	"pay_channel":"1",
+	/*支付订单获取地址*/
+	"pay_order_url":"http://121.199.4.73:8084/recharge/pay/apply_order.html",
+	/*支付返回地址*/
+	"pay_url":"http://121.199.4.73:8084/recharge/pay/apply_third_order.html",
+	/*支付通知地址*/
+	"pay_notify_url":"http://121.199.4.73:8084/recharge/pay/uc_pay.html"
+}

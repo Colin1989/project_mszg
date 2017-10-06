@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ipconfig_tplt>
+		<id>1</id>
+		<ip>114.215.237.174</ip>
+		<port>8001</port>
+		<content>铁拳海湾</content>
+		<statu>1</statu>
+		<speed>1</speed>
+		<crypto>1</crypto>
+		<text>【铁拳海湾】维护中</text>
+	</ipconfig_tplt>
+</root>

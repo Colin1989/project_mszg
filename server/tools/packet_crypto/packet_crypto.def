@@ -1,0 +1,7 @@
+LIBRARY	"packet_crypto"
+
+EXPORTS
+ GetEncodeDestLen
+ Encode
+ Decode
+

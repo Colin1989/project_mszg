@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ranking_award_tplt>
+		<id>101</id>
+		<ranking_range>1,10</ranking_range>
+		<points>100</points>
+		<honours>100</honours>
+	</ranking_award_tplt>
+	<ranking_award_tplt>
+		<id>102</id>
+		<ranking_range>11,50</ranking_range>
+		<points>60</points>
+		<honours>60</honours>
+	</ranking_award_tplt>
+	<ranking_award_tplt>
+		<id>103</id>
+		<ranking_range>51,100</ranking_range>
+		<points>30</points>
+		<honours>30</honours>
+	</ranking_award_tplt>
+	<ranking_award_tplt>
+		<id>104</id>
+		<ranking_range>101,2000</ranking_range>
+		<points>20</points>
+		<honours>20</honours>
+	</ranking_award_tplt>
+</root>

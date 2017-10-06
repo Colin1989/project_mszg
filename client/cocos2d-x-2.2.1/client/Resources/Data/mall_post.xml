@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<mall_post>
+		<id>1</id>
+		<text>————欢迎光临————</text>
+		<display>1</display>
+	</mall_post>
+	<mall_post>
+		<id>2</id>
+		<text>————首次充值可获得双倍魔石————</text>
+		<display>1</display>
+	</mall_post>
+	<mall_post>
+		<id>3</id>
+		<text>————开通VIP不但能够享受使用特权，还有VIP等级礼包和每日VIP礼包可领取哦！————</text>
+		<display>1</display>
+	</mall_post>
+</root>

@@ -1,0 +1,117 @@
+=== Suite started at 2013-11-14 14:14:26
+=== Starting test, 3 test cases
+=cases         3
+=user          Administrator
+=host          linyijie
+=hosts         linyijie 
+=emulator_vsn  5.10.3
+=emulator      beam
+=otp_release   R16B02
+=started       2013-11-14 14:14:26
+=case          ct_framework:init_per_suite
+=logfile       ct_framework.init_per_suite.html
+=group_props   [{suite,test_helper_SUITE}]
+=started       2013-11-14 14:14:27
+=ended         2013-11-14 14:14:27
+=result        ok
+=elapsed       1.0e-6
+=case          test_helper_SUITE:test_packet
+=logfile       test_helper_suite.test_packet.html
+=started       2013-11-14 14:14:27
+=== ERROR! init_per_testcase crashed!
+	Location: [{meck_expect,parse_clause_specs,114},
+              {meck_expect,new,53},
+              {meck,expect,226},
+              {test_helper,start,20},
+              {test_helper_SUITE,init_per_testcase,<a href="test_helper_suite.src.html#25">25</a>},
+              {test_server,do_init_per_testcase,1166},
+              {test_server,run_test_case_eval1,950},
+              {test_server,run_test_case_eval,924}]
+	Reason: {{invalid_arity,
+                     {{expected,1},
+                      {actual,2},
+                      {clause,{2,{meck_exec,#Fun<test_helper.1.126028927>}}}}},
+                 [{meck_expect,parse_clause_specs,3,
+                      [{file,"src/meck_expect.erl"},{line,114}]},
+                  {meck_expect,new,2,[{file,"src/meck_expect.erl"},{line,53}]},
+                  {meck,expect,3,[{file,"src/meck.erl"},{line,226}]},
+                  {test_helper,start,0,[{file,"test_helper.erl"},{line,20}]},
+                  {test_helper_SUITE,init_per_testcase,2,
+                      [{file,"test_helper_SUITE.erl"},{line,25}]},
+                  {test_server,do_init_per_testcase,2,
+                      [{file,"test_server.erl"},{line,1166}]},
+                  {test_server,run_test_case_eval1,6,
+                      [{file,"test_server.erl"},{line,950}]},
+                  {test_server,run_test_case_eval,9,
+                      [{file,"test_server.erl"},{line,924}]}]}
+
+=ended         2013-11-14 14:14:27
+=result        skipped
+=== *** SKIPPED *** test case 1 of 3
+=case          test_helper_SUITE:test_db
+=logfile       test_helper_suite.test_db.html
+=started       2013-11-14 14:14:27
+=== ERROR! init_per_testcase crashed!
+	Location: [{meck_proc,start,89},
+              {test_helper,send_mock,38},
+              {test_helper,start,20},
+              {test_helper_SUITE,init_per_testcase,<a href="test_helper_suite.src.html#25">25</a>},
+              {test_server,do_init_per_testcase,1166},
+              {test_server,run_test_case_eval1,950},
+              {test_server,run_test_case_eval,924}]
+	Reason: {{already_started,<0.210.0>},
+                 [{meck_proc,start,
+                             [packet,[no_link]],
+                             [{file,"src/meck_proc.erl"},{line,89}]},
+                  {test_helper,send_mock,0,
+                               [{file,"test_helper.erl"},{line,38}]},
+                  {test_helper,start,0,[{file,"test_helper.erl"},{line,20}]},
+                  {test_helper_SUITE,init_per_testcase,2,
+                                     [{file,"test_helper_SUITE.erl"},
+                                      {line,25}]},
+                  {test_server,do_init_per_testcase,2,
+                               [{file,"test_server.erl"},{line,1166}]},
+                  {test_server,run_test_case_eval1,6,
+                               [{file,"test_server.erl"},{line,950}]},
+                  {test_server,run_test_case_eval,9,
+                               [{file,"test_server.erl"},{line,924}]}]}
+
+=ended         2013-11-14 14:14:27
+=result        skipped
+=== *** SKIPPED *** test case 2 of 3
+=case          ct_framework:end_per_suite
+=logfile       ct_framework.end_per_suite.html
+=group_props   [{suite,test_helper_SUITE}]
+=started       2013-11-14 14:14:27
+=ended         2013-11-14 14:14:27
+=result        ok
+=elapsed       1.0e-6
+=group_time    0.203s
+=case          ct_framework:init_per_suite
+=logfile       ct_framework.init_per_suite.409667.249.html
+=group_props   [{suite,tplt_mock_SUITE}]
+=started       2013-11-14 14:14:27
+=ended         2013-11-14 14:14:27
+=result        ok
+=elapsed       1.0e-6
+=case          tplt_mock_SUITE:test_tplt_mock
+=logfile       tplt_mock_suite.test_tplt_mock.html
+=started       2013-11-14 14:14:27
+=ended         2013-11-14 14:14:27
+=result        ok
+=elapsed       0.031
+=case          ct_framework:end_per_suite
+=logfile       ct_framework.end_per_suite.409667.343.html
+=group_props   [{suite,tplt_mock_SUITE}]
+=started       2013-11-14 14:14:27
+=ended         2013-11-14 14:14:27
+=result        ok
+=elapsed       1.0e-6
+=group_time    0.094s
+=== TEST COMPLETE, 1 ok, 0 failed, 2 skipped of 3 test cases
+
+=finished      2013-11-14 14:14:27
+=failed        0
+=successful    1
+=user_skipped  0
+=auto_skipped  2

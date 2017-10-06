@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\wow\CocostudioProject\GameFightInfo</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>E:\wow\CocostudioProject\GameFightInfo\Resources</Resources>
+  <Name>GameFightInfo</Name>
+  <JsonFileName>GameFightInfo.json</JsonFileName>
+  <JsonFolder>E:\wow\CocostudioProject\GameFightInfo\Json</JsonFolder>
+  <JsonList>
+    <string>GameFightInfo_1.json</string>
+    <string>GameFightInfo_2.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>436</Width>
+    <Height>112</Height>
+  </CanvasSize>
+  <filePath>E:\wow\CocostudioProject\GameFightInfo\GameFightInfo.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>GameFightInfo_1.json</CurrentUIJson>
+</UIProject>

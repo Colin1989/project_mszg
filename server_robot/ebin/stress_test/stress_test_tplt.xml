@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<stress_test_tplt>
+		<id>1</id>
+		<name>登录</name>
+		<next_action>{2,100,0,0}</next_action>
+	</stress_test_tplt>
+	<stress_test_tplt>
+		<id>2</id>
+		<name>请求副本信息</name>
+		<next_action>{3,100,2,30}</next_action>
+	</stress_test_tplt>
+	<stress_test_tplt>
+		<id>3</id>
+		<name>请求进入副本</name>
+		<next_action>{4,100,0,3}</next_action>
+	</stress_test_tplt>
+	<stress_test_tplt>
+		<id>4</id>
+		<name>请求进入副本</name>
+		<next_action>{3,100,2,30},{0,0,0,0}</next_action>
+	</stress_test_tplt>
+</root>

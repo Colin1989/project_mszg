@@ -1,0 +1,13 @@
+class UIChange
+{
+	UIButton *UIWidget2UIButton(UIWidget *wid);
+	UICheckBox *UIWidget2UICheckBox(UIWidget *wid);
+	UIImageView *UIWidget2UIImageView(UIWidget *wid);
+	UILabel *UIWidget2UILabel(UIWidget *wid);
+	UILabelAtlas *UIWidget2UILabelAtlas(UIWidget *wid);
+	UISlider *UIWidget2UISlider(UIWidget *wid);
+	UILabelBMFont *UIWidget2UILabelBMFont(UIWidget *wid);
+	UILoadingBar *UIWidget2UILoadingBar(UIWidget *wid);
+	UITextField *UIWidget2UITextField(UIWidget *wid);
+	
+};

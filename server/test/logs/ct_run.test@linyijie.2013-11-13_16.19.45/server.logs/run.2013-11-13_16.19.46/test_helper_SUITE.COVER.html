@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>e:/server/test/logs/ct_run.test@linyijie.2013-11-13_16.19.45/server.logs/run.2013-11-13_16.19.46/test_helper_SUITE.COVER.html</title>
+</head><body style='background-color: white; color: black'>
+<pre>
+File generated from e:/server/test/test_helper_SUITE.erl by COVER 2013-11-13 at 16:19:47
+
+****************************************************************************
+
+        |  %%%-------------------------------------------------------------------
+        |  %%% @author linyijie &lt;&gt;
+        |  %%% @copyright (C) 2013, linyijie
+        |  %%% @doc
+        |  %%%
+        |  %%% @end
+        |  %%% Created : 11 Nov 2013 by linyijie &lt;&gt;
+        |  %%%-------------------------------------------------------------------
+        |  -module(test_helper_SUITE).
+        |  
+        |  %% Note: This directive should only be used in test suites.
+        |  -compile(export_all).
+        |  
+        |  -include_lib("common_test/include/ct.hrl").
+        |  -include("packet_def.hrl").
+        |  
+        |  %%--------------------------------------------------------------------
+        |  %% COMMON TEST CALLBACK FUNCTIONS
+        |  %%--------------------------------------------------------------------
+        |  
+        |  suite() -&gt;
+     5..|      [{timetrap,{minutes,10}}].
+        |  
+        |  init_per_testcase(_TestCase, Config) -&gt;
+     2..|      test_helper:start(),
+     2..|      Config.
+        |  
+        |  end_per_testcase(_TestCase, _Config) -&gt;
+     2..|      test_helper:stop(),
+     2..|      ok.
+        |  
+        |  groups() -&gt;
+     1..|      [].
+        |  
+        |  all() -&gt;
+     1..|      [ {exports, Functions} | _ ] = ?MODULE:module_info(),
+     1..|      [ FName || {FName, _} &lt;- lists:filter(
+     2..|                                 fun ({module_info,_}) -&gt; false;
+     1..|                                     ({all,_}) -&gt; false;
+<font color=red>     0..|                                     ({init_per_suite,1}) -&gt; false;</font>
+<font color=red>     0..|                                     ({end_per_suite,1}) -&gt; false;</font>
+     2..|                                     ({_,1}) -&gt; true;
+     4..|                                     ({_,_}) -&gt; false
+        |                                 end, Functions)].
+        |  
+        |  
+        |  %%--------------------------------------------------------------------
+        |  %% TEST CASES
+        |  %%--------------------------------------------------------------------
+        |  test_packet(_Config) -&gt;
+     1..|      Packet = #req_login{version=1, account="a", password="b"},
+     1..|      packet:send(Packet),
+     1..|      {ok, Packet} = test_helper:get_packet(),
+     1..|      ok.
+        |  
+        |  test_db(_Config) -&gt; 
+     1..|      undefined = db:find("item-1"),
+     1..|      ok.
+</pre>
+</body>
+</html>

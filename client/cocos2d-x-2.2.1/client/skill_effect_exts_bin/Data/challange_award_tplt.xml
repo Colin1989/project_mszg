@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<challenge_award_tplt>
+		<id>101</id>
+		<ranking_range>1,10</ranking_range>
+		<success_points>50</success_points>
+		<success_honours>50</success_honours>
+		<failed_points>25</failed_points>
+		<failed_honours>25</failed_honours>
+	</challenge_award_tplt>
+	<challenge_award_tplt>
+		<id>102</id>
+		<ranking_range>11,50</ranking_range>
+		<success_points>20</success_points>
+		<success_honours>20</success_honours>
+		<failed_points>10</failed_points>
+		<failed_honours>10</failed_honours>
+	</challenge_award_tplt>
+	<challenge_award_tplt>
+		<id>103</id>
+		<ranking_range>51,100</ranking_range>
+		<success_points>10</success_points>
+		<success_honours>10</success_honours>
+		<failed_points>5</failed_points>
+		<failed_honours>5</failed_honours>
+	</challenge_award_tplt>
+</root>

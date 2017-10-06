@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\wow\CocostudioProject\threeStarDest</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>E:\wow\CocostudioProject\threeStarDest\Resources</Resources>
+  <Name>threeStarDest</Name>
+  <JsonFileName>threeStarDest.json</JsonFileName>
+  <JsonFolder>E:\wow\CocostudioProject\threeStarDest\Json</JsonFolder>
+  <JsonList>
+    <string>threeStarDest_1.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>720</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>E:\wow\CocostudioProject\threeStarDest\threeStarDest.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>threeStarDest_1.json</CurrentUIJson>
+</UIProject>

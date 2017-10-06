@@ -1,0 +1,9 @@
+class Save_Xml : public CCNode
+{
+public:
+	static Save_Xml* create(const char* fileName);
+	void newElement(const char* elementName);
+	void addSubElement(const char* key, const char* value);
+	void save();
+	void release();
+};

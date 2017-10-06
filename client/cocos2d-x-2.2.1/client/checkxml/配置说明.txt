@@ -1,0 +1,13 @@
+
+必须要配置的参数
+
+你XML 文件所存在的路径
+XML_PATH = [[E:\cocos2d-x-2.2.1\client\Resources\Data]]
+
+
+["表名.xml"] = {}, 添加你要检测的表
+relate  多表关联
+mapping 为检测 匹配
+
+ 
+详细看 config.lua

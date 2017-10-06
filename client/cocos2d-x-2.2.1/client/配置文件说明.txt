@@ -1,0 +1,50 @@
+/////////////////////////////////////////////////////////
+///// config.json配置
+/////////////////////////////////////////////////////////
+game_server_type:游戏服务器类型(1.内网,2.外网,3.官网)
+update_url:资源自动更新地址
+update_show_error_log:资源自动更新错误日志显示标识
+account_server_url:账服地址
+activity_server_url:活动地址
+own_login_flow:是否为自有登录流程
+debug:调试状态
+ums_url:razor服务器地址
+pay_channel:支付渠道
+pay_order_url:支付订单获取地址
+pay_url:支付返回地址
+pay_notify_url:支付通知地址
+/////////////////////////////////////////////////////////
+///// 渠道说明
+/////////////////////////////////////////////////////////
+10001:	android 自有
+10011:	android uc
+10021:	android 百度91
+10031:	android 应用宝
+10041:	android 中兴
+10051:	android 华为
+10061:	android 机锋
+10071:	android 安卓市场
+10081:	android 安智
+10091:	android 当乐
+10101:	android 联想
+10111:	android 360
+10121:	android 小米
+10131:	android 豌豆荚
+10141:	android 魅族
+10151:	android 金立
+10161:	android oppo
+10171:	android 应用汇
+10251:  android 自有 海存量
+20001:	ios 自有
+20021:	ios 91助手
+20031:	ios 苹果园
+20041:	ios 爱贝
+20051:	ios pp助手
+20061:	ios 快用助手
+20071:	ios 同步推
+20081:	ios itools
+20091:	ios 海马平台
+20101:	ios 爱思助手
+30001:	windows 自有
+/////////////////////////////////////////////////////////
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<resources_notice>
+		<id>1</id>
+		<icon>fifteendays.png</icon>
+		<picture>cartoonbg4.png</picture>
+	</resources_notice>
+	<resources_notice>
+		<id>2</id>
+		<icon>fifteendays.png</icon>
+		<picture>cartoonbg4.png</picture>
+	</resources_notice>
+</root>

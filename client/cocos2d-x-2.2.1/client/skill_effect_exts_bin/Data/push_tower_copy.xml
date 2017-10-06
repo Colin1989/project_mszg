@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<push_tower_copy>
+		<id>101</id>
+		<min_level>10</min_level>
+		<max_level>100</max_level>
+		<first_map_id>10101</first_map_id>
+		<base_gold>10</base_gold>
+		<base_exp>20</base_exp>
+		<gem_list>5001,5002,5003,5004</gem_list>
+		<base_gem_count>1</base_gem_count>
+	</push_tower_copy>
+	<push_tower_copy>
+		<id>102</id>
+		<min_level>101</min_level>
+		<max_level>200</max_level>
+		<first_map_id>10102</first_map_id>
+		<base_gold>10</base_gold>
+		<base_exp>20</base_exp>
+		<gem_list>5001,5002,5003,5004</gem_list>
+		<base_gem_count>2</base_gem_count>
+	</push_tower_copy>
+</root>

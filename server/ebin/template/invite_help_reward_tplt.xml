@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<invite_help_reward_tplt>
+		<id>10</id>
+		<ids>1</ids>
+		<amounts>1000</amounts>
+		<need_level>1</need_level>
+	</invite_help_reward_tplt>
+	<invite_help_reward_tplt>
+		<id>20</id>
+		<ids>1</ids>
+		<amounts>1000</amounts>
+		<need_level>11</need_level>
+	</invite_help_reward_tplt>
+	<invite_help_reward_tplt>
+		<id>30</id>
+		<ids>1</ids>
+		<amounts>1000</amounts>
+		<need_level>21</need_level>
+	</invite_help_reward_tplt>
+	<invite_help_reward_tplt>
+		<id>40</id>
+		<ids>1</ids>
+		<amounts>1000</amounts>
+		<need_level>31</need_level>
+	</invite_help_reward_tplt>
+</root>

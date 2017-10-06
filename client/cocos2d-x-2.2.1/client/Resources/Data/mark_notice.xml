@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<mark_notice>
+		<id>1</id>
+		<mark>notice_decoration03.png</mark>
+	</mark_notice>
+	<mark_notice>
+		<id>2</id>
+		<mark>notice_decoration04.png</mark>
+	</mark_notice>
+	<mark_notice>
+		<id>3</id>
+		<mark>notice_decoration02.png</mark>
+	</mark_notice>
+	<mark_notice>
+		<id>4</id>
+		<mark>notice_decoration01.png</mark>
+	</mark_notice>
+</root>

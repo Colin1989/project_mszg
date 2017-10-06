@@ -1,0 +1,435 @@
+-record(req_check_version, {version=0}).
+-record(notify_check_version_result, {result=0}).
+-record(req_login, {account="", password=""}).
+-record(req_login_check, {uid="", token=""}).
+-record(role_data, {role_id=0, type=0, lev=0, name="", is_del=0, time_left=0}).
+-record(notifu_login_check_result, {result=0, error_code=0, emoney=0, role_infos=[]}).
+-record(notify_login_result, {id=0, result=0, emoney=0, role_infos=[]}).
+-record(notify_sys_msg, {code=0, params=[]}).
+-record(req_select_role, {role_id=0}).
+-record(notify_select_role_result, {result=0}).
+-record(req_delete_role, {role_id=0}).
+-record(notify_delete_role_result, {result=0}).
+-record(req_recover_del_role, {role_id=0}).
+-record(notify_recover_del_role_result, {result=0}).
+-record(req_reselect_role, {}).
+-record(notify_roles_infos, {emoney=0, role_infos=[]}).
+-record(req_gm_optition, {opt_type=0, value=0}).
+-record(player_data, {account="", username="", sex=0}).
+-record(sculpture_data, {temp_id=0, level=0}).
+-record(stime, {year=0, month=0, day=0, hour=0, minute=0, second=0}).
+-record(smonster, {pos=0, monsterid=0, dropout=0}).
+-record(strap, {pos=0, trapid=0}).
+-record(saward, {pos=0, awardid=0}).
+-record(sfriend, {pos=0, friend_role_id=0}).
+-record(battle_info, {sculpture=[], life=0, speed=0, atk=0, hit_ratio=0, miss_ratio=0, critical_ratio=0, tenacity=0, power=0}).
+-record(senemy, {pos=0, type=0, battle_prop=#battle_info{}}).
+-record(game_map, {monster=[], key=0, start=0, award=[], trap=[], barrier=[], friend=[], scene=0, enemy=[]}).
+-record(item, {inst_id=0, temp_id=0}).
+-record(pack_item, {id=0, itemid=0, itemtype=0, amount=0}).
+-record(copy_info, {copy_id=0, max_score=0, pass_times=0}).
+-record(equipmentinfo, {equipment_id=0, temp_id=0, strengthen_level=0, gems=[], attr_ids=[], gem_extra=0, bindtype=0, bindstatus=0}).
+-record(extra_item, {item_id=0, count=0}).
+-record(friend_data, {nickname="", status=0, head=0, level=0, public="", battle_prop=#battle_info{}}).
+-record(friend_info, {friend_id=0, nickname="", status=0, head=0, level=0, public="", battle_prop=#battle_info{}}).
+-record(award_item, {temp_id=0, amount=0}).
+-record(challenge_info, {name="", result=0, new_rank=0}).
+-record(rank_info, {role_id=0, name="", type=0, rank=0, level=0, power=0}).
+-record(train_info, {role_id=0, name="", type=0, status=0, level=0, power=0}).
+-record(rank_data, {role_id=0, name="", type=0, rank=0, value=0, public=""}).
+-record(donor, {role_id=0, rel=0, level=0, role_type=0, nick_name="", friend_point=0, power=0, sculpture=#sculpture_data{}}).
+-record(mall_buy_info, {mallitem_id=0, times=0}).
+-record(lottery_item, {type=0, item_info=0}).
+-record(activeness_task_item, {id=0, count=0}).
+-record(material_info, {material_id=0, amount=0}).
+-record(clean_up_trophy, {item=[], gold=0, exp=0}).
+-record(notify_heartbeat, {}).
+-record(notify_socket_close, {}).
+-record(notify_repeat_login, {account=""}).
+-record(req_register, {account="", channelid=0, platformid=0, password=""}).
+-record(notify_register_result, {result=0}).
+-record(req_create_role, {roletype=0, nickname=""}).
+-record(notify_create_role_result, {result=0}).
+-record(notify_roleinfo_msg, {id=0, nickname="", roletype=0, armor=0, weapon=0, ring=0, necklace=0, medal=0, jewelry=0, skill1=0, skill2=0, sculpture1=0, sculpture2=0, sculpture3=0, sculpture4=0, divine_level1=0, divine_level2=0, divine_level3=0, level=0, exp=0, gold=0, emoney=0, summon_stone=0, power_hp=0, recover_time_left=0, power_hp_buy_times=0, pack_space=0, friend_point=0, point=0, honour=0, sculpture_frag=0, battle_power=0}).
+-record(req_clean_up_copy, {copy_id=0, count=0}).
+-record(notify_clean_up_copy_result, {result=0, trophy_list=[]}).
+-record(req_enter_game, {id=0, gametype=0, copy_id=0}).
+-record(notify_enter_game, {result=0, game_id=0, gamemaps=[]}).
+-record(notify_last_copy, {last_copy_id=0, copyinfos=[]}).
+-record(req_last_copy, {roleid=0}).
+-record(req_buy_power_hp, {}).
+-record(notify_buy_power_hp_result, {result=0}).
+-record(notify_power_hp_msg, {result=0, power_hp=0}).
+-record(notify_player_pack, {type=0, pack_items=[]}).
+-record(req_game_settle, {game_id=0, result=0, life=0, maxlife=0, monsterkill=0, pickup_items=[], user_operations=[], gold=0, killmonsters=[]}).
+-record(notify_game_settle, {game_id=0, result=0, score=0, final_item=#lottery_item{}, ratio_items=[]}).
+-record(req_game_lottery, {}).
+-record(notify_game_lottery, {second_item=#lottery_item{}, result=0}).
+-record(req_game_reconnect, {uid="", token="", role_id=0}).
+-record(notify_reconnect_result, {id=0, result=0}).
+-record(req_equipment_strengthen, {equipment_id=0}).
+-record(notify_equipment_strengthen_result, {strengthen_result=0}).
+-record(req_equipment_mountgem, {equipment_id=0, gem_id=0}).
+-record(notify_equipment_mountgem_result, {mountgem_result=0}).
+-record(req_equipment_puton, {equipment_id=0}).
+-record(notify_equipment_puton_result, {puton_result=0}).
+-record(req_equipment_infos, {}).
+-record(notify_equipment_infos, {type=0, equipment_infos=[]}).
+-record(req_equipment_takeoff, {position=0}).
+-record(notify_equipment_takeoff_result, {takeoff_result=0}).
+-record(notify_gold_update, {gold=0}).
+-record(notify_emoney_update, {emoney=0}).
+-record(notify_summon_stone_info, {is_award=0, has_buy_times=0}).
+-record(req_daily_summon_stone, {}).
+-record(notify_daily_summon_stone, {result=0}).
+-record(req_buy_summon_stone, {}).
+-record(notify_buy_summon_stone, {result=0}).
+-record(notify_player_pack_exceeded, {new_extra=[]}).
+-record(req_extend_pack, {}).
+-record(notify_extend_pack_result, {result=0}).
+-record(req_sale_item, {inst_id=0, amount=0}).
+-record(notify_sale_item_result, {result=0, gold=0}).
+-record(req_sale_items, {inst_id=[]}).
+-record(notify_sale_items_result, {result=0, err_id=0, gold=0}).
+-record(req_search_friend, {nickname=""}).
+-record(notify_search_friend_result, {result=0, role_info=#friend_info{}}).
+-record(req_add_friend, {friend_id=0}).
+-record(notify_add_friend_result, {result=0}).
+-record(notify_req_for_add_friend, {friend_id=0, role_data=#friend_data{}}).
+-record(req_proc_reqfor_add_friend, {answer=0, friend_id=0}).
+-record(req_del_friend, {friend_id=0}).
+-record(notify_del_friend_result, {result=0}).
+-record(req_get_friends, {}).
+-record(notify_friend_list, {type=0, friends=[]}).
+-record(req_send_chat_msg, {friend_id=0, chat_msg=""}).
+-record(notify_send_chat_msg_result, {result=0}).
+-record(notify_receive_chat_msg, {friend_id=0, chat_msg=""}).
+-record(req_push_tower_map_settle, {game_id=0, result=0, cost_round=0, life=0, pickup_items=[]}).
+-record(notify_push_tower_map_settle, {result=0, gamemap=[], awards=[], gold=0, exp=0}).
+-record(req_push_tower_buy_round, {}).
+-record(notify_push_tower_buy_round, {result=0}).
+-record(req_push_tower_buy_playtimes, {}).
+-record(notify_push_tower_buy_playtimes, {result=0}).
+-record(req_reborn, {type=0}).
+-record(notify_reborn_result, {result=0}).
+-record(req_gem_compound, {temp_id=0, is_protect=0}).
+-record(notify_gem_compound_result, {result=0, lost_gem_amount=0}).
+-record(req_gem_unmounted, {equipment_id=0, gem_temp_id=0}).
+-record(notify_gem_unmounted_result, {result=0}).
+-record(req_push_tower_info, {}).
+-record(notify_push_tower_info, {play_times=0, max_times=0, max_floor=0}).
+-record(req_tutorial_progress, {}).
+-record(notify_tutorial_progress, {progress=[]}).
+-record(req_set_tutorial_progress, {progress=0}).
+-record(notify_set_tutorial_progress_result, {result=0}).
+-record(notify_today_activeness_task, {task_list=[], is_reward_activeness_item_info=[], activeness=0}).
+-record(req_today_activeness_task, {}).
+-record(req_activeness_reward, {reward=0}).
+-record(notify_activeness_reward_result, {reward=0, result=0}).
+-record(req_military_rank_reward, {}).
+-record(notify_military_rank_reward_result, {result=0}).
+-record(req_military_rank_info, {}).
+-record(notify_military_rank_info, {level=0, is_rewarded=0}).
+-record(task_info, {task_id=0, has_finished=0, args=[]}).
+-record(req_task_infos, {}).
+-record(notify_task_infos, {type=0, infos=[]}).
+-record(req_finish_task, {task_id=0}).
+-record(notify_finish_task, {is_success=0, task_id=0}).
+-record(sculpture_info, {sculpture_id=0, temp_id=0, lev=0, exp=0}).
+-record(req_sculpture_infos, {}).
+-record(notify_sculpture_infos, {type=0, sculpture_infos=[]}).
+-record(req_sculpture_puton, {position=0, inst_id=0}).
+-record(notify_sculpture_puton, {is_success=0, position=0, inst_id=0}).
+-record(req_sculpture_takeoff, {position=0}).
+-record(notify_sculpture_takeoff, {is_success=0, position=0}).
+-record(req_sculpture_convert, {target_item_id=0}).
+-record(notify_sculpture_convert, {is_success=0, target_item_id=0}).
+-record(req_sculpture_upgrade, {main_id=0, eat_ids=[]}).
+-record(notify_sculpture_upgrade, {is_success=0}).
+-record(req_sculpture_divine, {money_type=0, times=0}).
+-record(notify_sculpture_divine, {is_success=0, divine_level=0, awards=[]}).
+-record(req_sale_sculpture, {inst_ids=[]}).
+-record(notify_sale_sculpture_result, {result=0, gold=0, err_id=0}).
+-record(req_challenge_other_player, {role_id=0}).
+-record(notify_challenge_other_player_result, {game_id=0, result=0, map=[]}).
+-record(req_challenge_settle, {game_id=0, result=0}).
+-record(notify_challenge_settle, {result=0, point=0, honour=0}).
+-record(notify_be_challenged_times, {times=0}).
+-record(req_get_be_challenged_info, {}).
+-record(notify_challenge_info_list, {infos=[]}).
+-record(req_get_challenge_rank, {}).
+-record(notify_challenge_rank_list, {infos=[]}).
+-record(req_get_can_challenge_role, {}).
+-record(notify_can_challenge_lists, {infos=[]}).
+-record(req_buy_challenge_times, {}).
+-record(notify_buy_challenge_times_result, {result=0}).
+-record(req_get_challenge_times_info, {}).
+-record(notify_challenge_times_info, {buy_times=0, org_times=0, play_times=0, award_timeleft=0}).
+-record(req_assistance_list, {}).
+-record(notify_assistance_list, {donors=[]}).
+-record(req_select_donor, {donor_id=0}).
+-record(notify_select_donor_result, {result=0}).
+-record(notify_role_info_change, {type="", new_value=0}).
+-record(req_buy_mall_item, {mallitem_id=0, buy_times=0}).
+-record(notify_buy_mall_item_result, {result=0}).
+-record(req_has_buy_times, {}).
+-record(notify_has_buy_times, {buy_info_list=[]}).
+-record(notify_add_friend_defuse_msg, {role_id=0}).
+-record(req_get_challenge_rank_award, {}).
+-record(notify_get_challenge_rank_award_result, {result=0, point=0}).
+-record(req_buy_point_mall_item, {mallitem_id=0, buy_times=0}).
+-record(notify_buy_point_mall_item_result, {result=0}).
+-record(nofity_continue_login_award_info, {continue_login_days=0, daily_award_status=0, cumulative_award3_status=0, cumulative_award7_status=0, cumulative_award15_status=0}).
+-record(req_get_daily_award, {type=0}).
+-record(notify_get_daily_award_result, {type=0, result=0}).
+-record(notify_sys_time, {sys_time=#stime{}}).
+-record(req_get_rank_infos, {type=0}).
+-record(notify_rank_infos, {type=0, myrank=0, top_hundred=[]}).
+-record(req_train_match_list, {list_type=0}).
+-record(notify_train_match_list, {match_list=[]}).
+-record(req_start_train_match, {role_id=0}).
+-record(notify_start_train_match_result, {game_id=0, result=0, map=[]}).
+-record(req_train_match_settle, {game_id=0, result=0}).
+-record(notify_train_match_settle, {result=0, point=0, honour=0}).
+-record(req_get_train_match_times_info, {}).
+-record(notify_train_match_times_info, {buy_times=0, org_times=0, play_times=0, success_times=0, award_status=0, refresh_times=0}).
+-record(req_buy_train_match_times, {}).
+-record(notify_buy_train_match_times_result, {result=0}).
+-record(req_get_train_award, {type=0}).
+-record(notify_get_train_award_type, {result=0, new_status=0, award_id=0, amount=0}).
+-record(req_use_props, {inst_id=0}).
+-record(notify_use_props_result, {result=0, reward_id=0}).
+-record(req_benison_list, {}).
+-record(notify_benison_list, {benison_list=[], benison_status=[]}).
+-record(req_bless, {benison_id=0}).
+-record(notify_bless_result, {result=0}).
+-record(notify_role_bless_buff, {benison_id=0, buffs=[], time_left=0}).
+-record(req_refresh_benison_list, {}).
+-record(notify_refresh_benison_list_result, {result=0}).
+-record(req_equipment_advance, {inst_id=0}).
+-record(notify_equipment_advance_result, {result=0}).
+-record(req_equipment_resolve, {inst_id=[]}).
+-record(notify_equipment_resolve_result, {result=0, errid=0, infos=[]}).
+-record(req_equipment_recast, {inst_id=0}).
+-record(notify_equipment_recast_result, {result=0, new_info=#equipmentinfo{}}).
+-record(req_save_recast_info, {equipment_id=0}).
+-record(notify_save_recast_info_result, {result=0}).
+
+-define(msg_req_check_version, 1).
+-define(msg_notify_check_version_result, 2).
+-define(msg_req_login, 3).
+-define(msg_req_login_check, 4).
+-define(msg_role_data, 5).
+-define(msg_notifu_login_check_result, 6).
+-define(msg_notify_login_result, 7).
+-define(msg_notify_sys_msg, 8).
+-define(msg_req_select_role, 9).
+-define(msg_notify_select_role_result, 10).
+-define(msg_req_delete_role, 11).
+-define(msg_notify_delete_role_result, 12).
+-define(msg_req_recover_del_role, 13).
+-define(msg_notify_recover_del_role_result, 14).
+-define(msg_req_reselect_role, 15).
+-define(msg_notify_roles_infos, 16).
+-define(msg_req_gm_optition, 17).
+-define(msg_player_data, 18).
+-define(msg_sculpture_data, 19).
+-define(msg_stime, 20).
+-define(msg_smonster, 21).
+-define(msg_strap, 22).
+-define(msg_saward, 23).
+-define(msg_sfriend, 24).
+-define(msg_battle_info, 25).
+-define(msg_senemy, 26).
+-define(msg_game_map, 27).
+-define(msg_item, 28).
+-define(msg_pack_item, 29).
+-define(msg_copy_info, 30).
+-define(msg_equipmentinfo, 31).
+-define(msg_extra_item, 32).
+-define(msg_friend_data, 33).
+-define(msg_friend_info, 34).
+-define(msg_award_item, 35).
+-define(msg_challenge_info, 36).
+-define(msg_rank_info, 37).
+-define(msg_train_info, 38).
+-define(msg_rank_data, 39).
+-define(msg_donor, 40).
+-define(msg_mall_buy_info, 41).
+-define(msg_lottery_item, 42).
+-define(msg_activeness_task_item, 43).
+-define(msg_material_info, 44).
+-define(msg_clean_up_trophy, 45).
+-define(msg_notify_heartbeat, 46).
+-define(msg_notify_socket_close, 47).
+-define(msg_notify_repeat_login, 48).
+-define(msg_req_register, 49).
+-define(msg_notify_register_result, 50).
+-define(msg_req_create_role, 51).
+-define(msg_notify_create_role_result, 52).
+-define(msg_notify_roleinfo_msg, 53).
+-define(msg_req_clean_up_copy, 54).
+-define(msg_notify_clean_up_copy_result, 55).
+-define(msg_req_enter_game, 56).
+-define(msg_notify_enter_game, 57).
+-define(msg_notify_last_copy, 58).
+-define(msg_req_last_copy, 59).
+-define(msg_req_buy_power_hp, 60).
+-define(msg_notify_buy_power_hp_result, 61).
+-define(msg_notify_power_hp_msg, 62).
+-define(msg_notify_player_pack, 63).
+-define(msg_req_game_settle, 64).
+-define(msg_notify_game_settle, 65).
+-define(msg_req_game_lottery, 66).
+-define(msg_notify_game_lottery, 67).
+-define(msg_req_game_reconnect, 68).
+-define(msg_notify_reconnect_result, 69).
+-define(msg_req_equipment_strengthen, 70).
+-define(msg_notify_equipment_strengthen_result, 71).
+-define(msg_req_equipment_mountgem, 72).
+-define(msg_notify_equipment_mountgem_result, 73).
+-define(msg_req_equipment_puton, 74).
+-define(msg_notify_equipment_puton_result, 75).
+-define(msg_req_equipment_infos, 76).
+-define(msg_notify_equipment_infos, 77).
+-define(msg_req_equipment_takeoff, 78).
+-define(msg_notify_equipment_takeoff_result, 79).
+-define(msg_notify_gold_update, 80).
+-define(msg_notify_emoney_update, 81).
+-define(msg_notify_summon_stone_info, 82).
+-define(msg_req_daily_summon_stone, 83).
+-define(msg_notify_daily_summon_stone, 84).
+-define(msg_req_buy_summon_stone, 85).
+-define(msg_notify_buy_summon_stone, 86).
+-define(msg_notify_player_pack_exceeded, 87).
+-define(msg_req_extend_pack, 88).
+-define(msg_notify_extend_pack_result, 89).
+-define(msg_req_sale_item, 90).
+-define(msg_notify_sale_item_result, 91).
+-define(msg_req_sale_items, 92).
+-define(msg_notify_sale_items_result, 93).
+-define(msg_req_search_friend, 94).
+-define(msg_notify_search_friend_result, 95).
+-define(msg_req_add_friend, 96).
+-define(msg_notify_add_friend_result, 97).
+-define(msg_notify_req_for_add_friend, 98).
+-define(msg_req_proc_reqfor_add_friend, 99).
+-define(msg_req_del_friend, 100).
+-define(msg_notify_del_friend_result, 101).
+-define(msg_req_get_friends, 102).
+-define(msg_notify_friend_list, 103).
+-define(msg_req_send_chat_msg, 104).
+-define(msg_notify_send_chat_msg_result, 105).
+-define(msg_notify_receive_chat_msg, 106).
+-define(msg_req_push_tower_map_settle, 107).
+-define(msg_notify_push_tower_map_settle, 108).
+-define(msg_req_push_tower_buy_round, 109).
+-define(msg_notify_push_tower_buy_round, 110).
+-define(msg_req_push_tower_buy_playtimes, 111).
+-define(msg_notify_push_tower_buy_playtimes, 112).
+-define(msg_req_reborn, 113).
+-define(msg_notify_reborn_result, 114).
+-define(msg_req_gem_compound, 115).
+-define(msg_notify_gem_compound_result, 116).
+-define(msg_req_gem_unmounted, 117).
+-define(msg_notify_gem_unmounted_result, 118).
+-define(msg_req_push_tower_info, 119).
+-define(msg_notify_push_tower_info, 120).
+-define(msg_req_tutorial_progress, 121).
+-define(msg_notify_tutorial_progress, 122).
+-define(msg_req_set_tutorial_progress, 123).
+-define(msg_notify_set_tutorial_progress_result, 124).
+-define(msg_notify_today_activeness_task, 125).
+-define(msg_req_today_activeness_task, 126).
+-define(msg_req_activeness_reward, 127).
+-define(msg_notify_activeness_reward_result, 128).
+-define(msg_req_military_rank_reward, 129).
+-define(msg_notify_military_rank_reward_result, 130).
+-define(msg_req_military_rank_info, 131).
+-define(msg_notify_military_rank_info, 132).
+-define(msg_task_info, 133).
+-define(msg_req_task_infos, 134).
+-define(msg_notify_task_infos, 135).
+-define(msg_req_finish_task, 136).
+-define(msg_notify_finish_task, 137).
+-define(msg_sculpture_info, 138).
+-define(msg_req_sculpture_infos, 139).
+-define(msg_notify_sculpture_infos, 140).
+-define(msg_req_sculpture_puton, 141).
+-define(msg_notify_sculpture_puton, 142).
+-define(msg_req_sculpture_takeoff, 143).
+-define(msg_notify_sculpture_takeoff, 144).
+-define(msg_req_sculpture_convert, 145).
+-define(msg_notify_sculpture_convert, 146).
+-define(msg_req_sculpture_upgrade, 147).
+-define(msg_notify_sculpture_upgrade, 148).
+-define(msg_req_sculpture_divine, 149).
+-define(msg_notify_sculpture_divine, 150).
+-define(msg_req_sale_sculpture, 151).
+-define(msg_notify_sale_sculpture_result, 152).
+-define(msg_req_challenge_other_player, 153).
+-define(msg_notify_challenge_other_player_result, 154).
+-define(msg_req_challenge_settle, 155).
+-define(msg_notify_challenge_settle, 156).
+-define(msg_notify_be_challenged_times, 157).
+-define(msg_req_get_be_challenged_info, 158).
+-define(msg_notify_challenge_info_list, 159).
+-define(msg_req_get_challenge_rank, 160).
+-define(msg_notify_challenge_rank_list, 161).
+-define(msg_req_get_can_challenge_role, 162).
+-define(msg_notify_can_challenge_lists, 163).
+-define(msg_req_buy_challenge_times, 164).
+-define(msg_notify_buy_challenge_times_result, 165).
+-define(msg_req_get_challenge_times_info, 166).
+-define(msg_notify_challenge_times_info, 167).
+-define(msg_req_assistance_list, 168).
+-define(msg_notify_assistance_list, 169).
+-define(msg_req_select_donor, 170).
+-define(msg_notify_select_donor_result, 171).
+-define(msg_notify_role_info_change, 172).
+-define(msg_req_buy_mall_item, 173).
+-define(msg_notify_buy_mall_item_result, 174).
+-define(msg_req_has_buy_times, 175).
+-define(msg_notify_has_buy_times, 176).
+-define(msg_notify_add_friend_defuse_msg, 177).
+-define(msg_req_get_challenge_rank_award, 178).
+-define(msg_notify_get_challenge_rank_award_result, 179).
+-define(msg_req_buy_point_mall_item, 180).
+-define(msg_notify_buy_point_mall_item_result, 181).
+-define(msg_nofity_continue_login_award_info, 182).
+-define(msg_req_get_daily_award, 183).
+-define(msg_notify_get_daily_award_result, 184).
+-define(msg_notify_sys_time, 185).
+-define(msg_req_get_rank_infos, 186).
+-define(msg_notify_rank_infos, 187).
+-define(msg_req_train_match_list, 188).
+-define(msg_notify_train_match_list, 189).
+-define(msg_req_start_train_match, 190).
+-define(msg_notify_start_train_match_result, 191).
+-define(msg_req_train_match_settle, 192).
+-define(msg_notify_train_match_settle, 193).
+-define(msg_req_get_train_match_times_info, 194).
+-define(msg_notify_train_match_times_info, 195).
+-define(msg_req_buy_train_match_times, 196).
+-define(msg_notify_buy_train_match_times_result, 197).
+-define(msg_req_get_train_award, 198).
+-define(msg_notify_get_train_award_type, 199).
+-define(msg_req_use_props, 200).
+-define(msg_notify_use_props_result, 201).
+-define(msg_req_benison_list, 202).
+-define(msg_notify_benison_list, 203).
+-define(msg_req_bless, 204).
+-define(msg_notify_bless_result, 205).
+-define(msg_notify_role_bless_buff, 206).
+-define(msg_req_refresh_benison_list, 207).
+-define(msg_notify_refresh_benison_list_result, 208).
+-define(msg_req_equipment_advance, 209).
+-define(msg_notify_equipment_advance_result, 210).
+-define(msg_req_equipment_resolve, 211).
+-define(msg_notify_equipment_resolve_result, 212).
+-define(msg_req_equipment_recast, 213).
+-define(msg_notify_equipment_recast_result, 214).
+-define(msg_req_save_recast_info, 215).
+-define(msg_notify_save_recast_info_result, 216).
+
+-define(proto_ver, 55).

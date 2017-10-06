@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<tutorial_item_tplt>
+		<group_id>10</group_id>
+		<gift_bag_id>12001</gift_bag_id>
+	</tutorial_item_tplt>
+	<tutorial_item_tplt>
+		<group_id>11</group_id>
+		<gift_bag_id>60113</gift_bag_id>
+	</tutorial_item_tplt>
+	<tutorial_item_tplt>
+		<group_id>41</group_id>
+		<gift_bag_id>60116</gift_bag_id>
+	</tutorial_item_tplt>
+	<tutorial_item_tplt>
+		<group_id>43</group_id>
+		<gift_bag_id>60118</gift_bag_id>
+	</tutorial_item_tplt>
+</root>
